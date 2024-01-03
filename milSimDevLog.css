@@ -1,0 +1,164 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(35, 35, 35);
+    font-family: 'Georgia';
+    color: rgb(228, 228, 228);
+    margin: 0;
+    padding: 0;
+}
+
+/* Lawrence John Balanza br computer science bs */
+header h1{
+    margin: 0;
+    padding: 20px;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    /* position: absolute; */
+    background-color:rgb(41, 41, 41);
+    text-align: center;
+    /* font-family: 'Brush Script MT'; */
+    font-size: 35px;
+}
+
+header h1 a{
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
+
+/* Computer science bs */
+header h1 span{
+    font-size: .4em;
+    /* font-family: garamond;  */
+}
+
+
+/* welcome to my website! */
+.welcome{
+    position: relative;
+    left: -30%;
+    top: 300px;
+    line-height: 3em;
+    font-size:12px;
+    text-align: center;
+}
+
+/* nav links */
+
+nav{
+    background-color: #5d5d5d;
+    /* padding: 100px auto; */
+    padding-left: 55px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: sticky;
+    top: -6px;
+    /* font-family: arial; */
+    z-index: 1;
+}
+
+nav ul{
+    white-space: nowrap;
+    margin: 0 auto;
+}
+
+nav li{
+    /* width: 150px; */
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 80px;
+}
+
+
+nav li a{
+    text-decoration: none;
+    color: rgb(228, 228, 228);
+}
+
+/* .home{
+}
+
+.otherProject{
+    padding-left: 40px;
+} */
+
+main{
+    position: relative;
+    width: 900px;
+    margin: 600px auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    top: -500px;
+    color: rgb(228, 228, 228);
+}
+
+.project{
+    padding-top: 0px;
+}
+
+.project a{
+    padding-left: 39%;
+    text-align: center;
+    color: rgb(152, 152, 152);
+}
+
+.project h1{
+    text-align: center;
+}
+
+.project h3{
+    text-align: center;
+}
+
+/* .cubetube img, .Blackjack img, .President img, .Spacebase img, .Adventure img, .Turtle img{
+    width: 100%;
+} */
+
+.project img{
+    width: 100%;
+}
+
+#prog1 img{
+    width: 30%;
+    display: inline-block;  
+    margin: 5px;
+}
+
+#prog2 img{
+    width: 40%
+}
+
+#prog3 img{
+    width: 40%;
+    display: inline-block;  
+    margin: 5px;
+}
+
+#prog4 img{
+    width: 30%;
+    display: inline-block;  
+    margin: 5px;
+}
+
+#prog5 img{
+    width: 80%;
+}
+
+.project h3{
+    font-size: 30px;
+}
+
+.project h4{
+    font-size: 20px;
+}
+
+img.cssShow{
+    width: 50%;
+} 
+
+/* .Blackjack img{
+    width: 100%;
+} */
