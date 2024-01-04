@@ -103,6 +103,10 @@ nav li a{
     padding-left: 40px;
 } */
 
+#mySkills{
+    margin-left:70%;
+}
+
 main{
     position: relative;
     width: 600px;
