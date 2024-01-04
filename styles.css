@@ -113,7 +113,7 @@ main{
     color: rgb(228, 228, 228);
 }
 
-#projlabel{
+#toplabel{
     font-size:40px;
 }
 
@@ -148,7 +148,7 @@ main{
 }
 
 .project h4{
-    font-size: 10px;
+    font-size: 13px;
     font-style: italic;
 }
 
@@ -160,6 +160,27 @@ main{
 img.cssShow{
     width: 50%;
 } 
+
+#connCheck{
+    margin-left: -15px;
+}
+
+#ecommerce{
+    margin-left: -15px;
+}
+
+#ecCheck{
+    margin-left: -15px;
+}
+
+#buddy1{
+    text-align: center;
+}
+
+#buddy{
+    margin-left: -40px;
+    text-align: center;
+}
 
 /* .Blackjack h3{
     padding-right: 38px;

@@ -122,12 +122,36 @@ main{
 }
 
 .project h3{
-    font-size: 30px;
+    font-size: 27px;
 }
 
 .project h4{
     font-size: 10px;
     font-style: italic;
+}
+
+#toplabel{
+    font-size:40px;
+}
+
+#ecommerce{
+    margin-left: -15px;
+}
+
+#ecCheck{
+    margin-left: -15px;
+}
+
+#connCheck{
+    margin-left: -15px;
+}
+
+#buddy1{
+    text-align: center;
+}
+
+#buddy{
+    margin-left: -40px;
 }
 
 .Guessboo h3 span{
