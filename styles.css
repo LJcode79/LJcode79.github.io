@@ -13,10 +13,11 @@ body{
 /* Lawrence John Balanza br computer science bs */
 header h1{
     padding: 20px;
+    margin:0px;
     top: -35px;
     left: 0;
     width: 100%;
-    position: absolute;
+    position: static;
     background-color:rgb(41, 41, 41);
     text-align: center;
     /* font-family: 'Brush Script MT'; */
@@ -44,17 +45,22 @@ header h1 span{
     border-radius: 10% */
 
     position: absolute;
-    top: 170px;
-    left: 41%;
-    width: 20%;
-    border-radius: 10% 
+    top: 190px;
+    left: 36%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%; 
+    object-fit: cover;
+    object-position: 0px 70%;
+    /* transform: scale(.5,.5) */
+    
     
 }
 
 /* welcome to my website! */
 .welcome{
-    position: relative;
-    left: -30%;
+    position: absolute;
+    left: 5%; 
     top: 300px;
     line-height: 3em;
     font-size:12px;
@@ -69,6 +75,7 @@ nav{
     padding-left: 55px;
     padding-bottom: 10px;
     padding-top: 10px;
+    margin-top:0px;
     position: sticky;
     top: -6px;
     /* font-family: arial; */
@@ -122,7 +129,7 @@ main{
 }
 
 .project{
-    padding-top: 80px;
+    padding-top: 0px;
 }
 
 .project a{
