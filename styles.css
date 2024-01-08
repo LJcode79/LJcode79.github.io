@@ -4,8 +4,9 @@ html{
 
 body{
     background-color: rgb(35, 35, 35);
+    /* background-color: rgb(108, 108, 137); */
     font-family: 'Georgia';
-    color: rgb(228, 228, 228);
+    color: white;
     margin: 0;
     padding: 0;
 }
@@ -28,7 +29,7 @@ body{
 /* Lawrence John Balanza br computer science bs */
 header h1{
     /* font-family: 'Lobster', sans-serif; */
-    padding: 15px;
+    /* padding: 15px; */
     margin:0px;
     top: -35px;
     left: 0;
@@ -44,7 +45,7 @@ header h1{
 
 header h1 a{
     text-decoration: none;
-    color: rgb(228, 228, 228);
+    color: white;
 }
 
 /* Computer science bs */
@@ -57,8 +58,11 @@ header h1 span{
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: 80%;
+    height: 100%;
     opacity: .95;
+    background-image: linear-gradient(to bottom, rgba(176, 250, 255, 0), rgb(35, 35, 35) ), url('images/ocean.gif');
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -72,10 +76,10 @@ header h1 span{
     border-radius: 10% */
 
     position: absolute;
-    top: 190px;
-    left: 10%;
-    width: 350px;
-    height: 350px;
+    top: 200px;
+    left: 8%;
+    width: 30vw;
+    height: 30vw;
     border-radius: 50%; 
     object-fit: cover;
     object-position: 0px 70%;
@@ -93,7 +97,7 @@ header h1 span{
     position: absolute;
     left: 40%; 
     margin-right: 5%;
-    top: 170px;
+    top: 33%;
     line-height: 3em;
     font-size:12px;
     text-align: center;
@@ -154,7 +158,7 @@ nav li{
 
 nav li a{
     text-decoration: none;
-    color: rgb(228, 228, 228);
+    color: white;
 }
 
 /* .otherProject{
@@ -164,27 +168,112 @@ nav li a{
 
 main{
     position: relative;
-    width: 600px;
-    margin: 600px auto;
-    padding: 0 10px;
-    margin-left: 25%;
-    box-sizing: border-box;
+    /* width: 600px; */
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width:100%;
+    /* margin: 600px auto; */
+    /* padding: 0 50px; */
+    /* margin-top: 600px; */
+    /* margin-left: 1%; */
+    /* box-sizing: border-box; */
     top: 10px;
-    color: rgb(228, 228, 228);
+    color: white;
 }
 
 #toplabel{
+    position: absolute;
+    margin-top: 20px;
+    padding: 10px 50px;
+    /* margin-bottom: 50px; */
     font-size:40px;
+    left:37%;
+    /* margin-left:40%; */
+    /* padding: 30px; */
+    /* border-radius: 30px; */
+    /* border-top-left-radius: 50%; */
+    /* border-bottom-right-radius: 50%; */
+    /* border: 5px solid rgb(60, 60, 60); */
+    /* background-image: linear-gradient(to top right, rgb(35, 35, 35)5%, rgba(0, 217, 255, 0.146), rgb(35, 35, 35) 88%); */
+    /* background-clip: padding-box; */
+    /* background-image: linear-gradient(to top, rgb(35, 35, 35), rgba(52, 208, 255, 0.313), rgb(35, 35, 35)); */
+    /* background-color: rgba(33, 33, 77, 0.338); */
+    /* background: radial-gradient(rgba(33, 33, 77, 0.338)65%, rgba(255, 247, 0, 0.322)); */
+    background-image: linear-gradient(to top, rgb(35, 35, 35), rgba(38, 38, 92, 0.979));
+    box-shadow: 0 0 50px 5px rgba(255, 247, 0, 0.322);
+    color: white;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
 }
 
 .project{
-    margin-top: -500px;
+    margin-top: -600px;
+    margin-bottom: 60px;
+    margin: auto;
+    padding:auto;
+    /* padding-left:10%; */
+    /* padding-right: -600px; */
+    padding-bottom:150px;
+    /* padding-right:-500px; */
+    /* margin-left: 5%; */
+    /* padding: auto auto; */
+    /* width: 100%; */
+    display: flex;
+    /* padding: auto; */
+    /* flex: 0 0 0; */
+    flex-wrap:wrap;
+    /* gap: 30px; */
+    /* row-gap: 5px; */
+    justify-content:center;
+    align-items:center;
+    width:80%;
+    /* background-color: #5d5d5d40; */
+    background-image: linear-gradient(to top, rgb(35, 35, 35), rgba(255, 247, 0, 0.132), rgb(35, 35, 35));
+    /* border-radius:100px 100px; */
+    /* border-top-left-radius: 10%; */
+
+}
+
+#pBox{
+    /* position: absolute; */
+    /* border: 1px solid blue; */
+    padding-bottom: 570px;
+    padding-right: 50px;
+    padding-left: 50px;
+    /* gap: 100px; */
+    margin: -150px;
+    margin-bottom: -380px;
+    width: 480px;
+    height: 420px;
+    scale: .45;
+    /* background-color: rgba(73, 237, 255, 0.148); */
+    background-image: linear-gradient(to bottom right, rgb(35, 35, 35), rgba(38, 38, 92, 0.979));
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+#pBox a{
+    text-decoration:none;
+    color: white;
+}
+
+.pTitle{
+    font-size: 40px;
+}
+
+.pDesc{
+    margin-top: 41px;
+    font-size: 30px;
+    text-align: center;
+    display: flex; 
+    /* align-items: center;  */
+    /* justify-content: center; */
 }
 
 .project a{
     padding-left: 39%;
     text-align: center;
-    color: rgb(152, 152, 152);
+    color: white;
 }
 
 .project h1{
@@ -204,11 +293,11 @@ main{
 }
 
 .project h3{
-    font-size: 27px;
+    /* font-size: 27px; */
 }
 
 .project h4{
-    font-size: 13px;
+    font-size: 20px;
     font-style: italic;
 }
 
@@ -243,32 +332,82 @@ img.cssShow{
 }
 
 .topTitle{
-    margin-left: 0%;
-    
+    /* margin-left: 34%;
+    margin-bottom: 2%;
+    margin-top:-5%;
+    padding-left: 4%;
+    padding-right: 13%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: block;
+    font-size: 40px;
+    width: 25%;
+    height: 15%;
+    background-image: linear-gradient(to top, rgb(35, 35, 35), rgba(38, 38, 92, 0.979));
+    box-shadow: 0 0 50px 5px rgba(0, 185, 252, 0.322);
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%; */
+
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 1%;
+    padding: 10px 50px;
+    font-size:40px;
+    left:37%;
+    background-image: linear-gradient(to top, rgb(35, 35, 35), rgba(38, 38, 92, 0.979));
+    box-shadow: 0 0 50px 5px rgba(0, 185, 252, 0.322);
+    color: white;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
 }
 
 .webSkills{
     display: flex;
     flex: 0 0 0;
     flex-wrap:wrap;
-    gap: 30px;
+    gap: 50px;
     row-gap: 5px;
-    justify-content: start;
+    /* margin-left:15%; */
+    justify-content:center;
+    align-items:flex-end;
 }
 
 #mySkills{
-    margin-left:35%;
-    margin-top: 40%;
+    /* margin-left:20%; */
+    /* position: absolute; */
+    margin-left: 0%;
+    padding-top:10%;
+    margin-top: 52%;
+    justify-content:center;
+    align-items:center;
+    /* background-image: linear-gradient(to top, rgb(35, 35, 35), rgba(0, 185, 252, 0.132), rgb(35, 35, 35)); */
+    width:80%;
+    margin-left:10%;
+}
+
+.skillBackground{
+    background-image: linear-gradient(to top, rgb(35, 35, 35), rgba(0, 185, 252, 0.132), rgb(35, 35, 35));
+    width:80%;
+    margin-left: 10%;
+    margin-top: 50%;
 }
 
 .skillTitle{
-    padding-left: 15%;
+    margin-left: 45%;
+    font-size: 1.5rem;
 }
 
 .iconBlock{
     /* max-width: 60%; */
-    margin-bottom:-10px;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:3%;
+    width:100px;
     transition: transform .3s ease;
+    justify-content:center;
+    align-items:center;
+    /* row-gap:50px; */
 }
 
 .iconBlock:hover{
@@ -276,17 +415,30 @@ img.cssShow{
 }
 
 .icon{
-    width: 60px;
+    width: 75%;
 }
 
 
 .iconLabel{
     font-size: 1em;
-    width: 40%;
-    margin-left: 15%;
+    width: 120%;
+    text-align: center;
+    /* align-items: flex-start; */
+    /* left:50%; */
+    /* margin-left: 15%; */
 }
 
+#cssLogo{
+    /* width:43%; */
+}
 
+#htmlLogo{
+    width:100%;
+}
+
+#exLogo{
+    width:150%;
+}
 
 /* .Blackjack h3{
     padding-right: 38px;
