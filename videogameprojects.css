@@ -143,7 +143,10 @@ img.cssShow{
     font-size:40px;
 }
 
-
+#award{
+    font-size: 15px;
+    font-style: italic;
+}
 /* .Blackjack img{
     width: 100%;
 } */

@@ -68,24 +68,14 @@ header h1 span{
 
 /* lj portrait */
 .ljPortrait{ 
-    /* position: absolute;
-    width: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10% */
-
     position: absolute;
     top: 200px;
     left: 8%;
-    width: 30vw;
-    height: 30vw;
+    width: 25vw;
+    height: 25vw;
     border-radius: 50%; 
     object-fit: cover;
     object-position: 0px 70%;
-    /* transform: scale(.5,.5) */
-    
-    
 }
 
 /* welcome to my website! */
@@ -93,16 +83,14 @@ header h1 span{
     /* font-family: 'Permanent Marker', cursive; */
     /* font-family: 'Lato', sans-serif; */
     font-family: 'Amatic SC', sans-serif;
-    /* font-family: 'Shantell Sans', cursive; */
     position: absolute;
     left: 40%; 
     margin-right: 5%;
     top: 33%;
     line-height: 3em;
-    font-size:12px;
+    /* font-size:12px; */
     text-align: center;
-    font-size: 1.3em;
-    /* font-weight: bold; */
+    font-size: 1.5vw;
     color:rgb(0, 0, 0)
 }
 
@@ -113,7 +101,6 @@ header h1 span{
 
 #ljName{
     font-family: 'Permanent Marker', cursive;
-    /* font-family: 'Shantell Sans', cursive; */
     font-size: 2em;
 }
 
@@ -122,18 +109,54 @@ header h1 span{
     text-shadow: 2px 2px 4px rgba(221, 255, 0, 0.546);
 }
 
+.socialMedia{
+    /* position: relative; */
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    margin-top:26.8%;
+    margin-left: 30%;
+    gap: 40px;
+    /* left: 60%; */
+    /* width: 5%; */
+}
+
+.socialBlock{
+    /* max-width: 60%; */
+    /* display:flex; */
+    /* flex-direction:column; */
+    margin-bottom:3%;
+    width:40px;
+    transition: transform .3s ease;
+    transform-origin: center center;
+    /* justify-content:center; */
+    /* align-items:center; */
+    /* row-gap:50px; */
+}
+
+.socialBlock:hover{
+    transform: scale(1.1);
+}
+
+#socialIcon{
+    width: 4vw;
+}
+
+#liIcon{
+    width: 4.5vw;
+}
+
 /* nav links */
 
 nav{
     background-color: #5d5d5d;
-    /* padding: 100px auto; */
     padding-left: 55px;
     padding-bottom: 10px;
     padding-top: 10px;
     margin-top:0px;
     position: sticky;
     top: -6px;
-    /* font-family: arial; */
     z-index: 1;
 }
 
@@ -142,14 +165,7 @@ nav ul{
     margin: 0 auto;
 }
 
-/* nav li{
-    width: 230px;
-    display: inline-block;
-    font-size: 20px;
-} */
-
 nav li{
-    /* width: 150px; */
     display: inline-block;
     font-size: 20px;
     padding-right: 80px;
@@ -161,44 +177,21 @@ nav li a{
     color: white;
 }
 
-/* .otherProject{
-    padding-left: 40px;
-} */
-
-
 main{
     position: relative;
-    /* width: 600px; */
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 170px;
+    /* margin-bottom: 0px; */
     width:100%;
-    /* margin: 600px auto; */
-    /* padding: 0 50px; */
-    /* margin-top: 600px; */
-    /* margin-left: 1%; */
-    /* box-sizing: border-box; */
     top: 10px;
     color: white;
 }
 
 #toplabel{
     position: absolute;
-    margin-top: 20px;
+    margin-top: -3%;
     padding: 10px 50px;
-    /* margin-bottom: 50px; */
     font-size:40px;
     left:37%;
-    /* margin-left:40%; */
-    /* padding: 30px; */
-    /* border-radius: 30px; */
-    /* border-top-left-radius: 50%; */
-    /* border-bottom-right-radius: 50%; */
-    /* border: 5px solid rgb(60, 60, 60); */
-    /* background-image: linear-gradient(to top right, rgb(35, 35, 35)5%, rgba(0, 217, 255, 0.146), rgb(35, 35, 35) 88%); */
-    /* background-clip: padding-box; */
-    /* background-image: linear-gradient(to top, rgb(35, 35, 35), rgba(52, 208, 255, 0.313), rgb(35, 35, 35)); */
-    /* background-color: rgba(33, 33, 77, 0.338); */
-    /* background: radial-gradient(rgba(33, 33, 77, 0.338)65%, rgba(255, 247, 0, 0.322)); */
     background-image: linear-gradient(to top, rgb(35, 35, 35), rgba(38, 38, 92, 0.979));
     box-shadow: 0 0 50px 5px rgba(255, 247, 0, 0.322);
     color: white;
@@ -207,30 +200,19 @@ main{
 }
 
 .project{
-    margin-top: -600px;
+    margin-top: -160%;
     margin-bottom: 60px;
     margin: auto;
-    padding:auto;
-    /* padding-left:10%; */
-    /* padding-right: -600px; */
+    /* padding:auto; */
+    padding-top: -50%;
     padding-bottom:150px;
-    /* padding-right:-500px; */
-    /* margin-left: 5%; */
-    /* padding: auto auto; */
-    /* width: 100%; */
     display: flex;
-    /* padding: auto; */
-    /* flex: 0 0 0; */
     flex-wrap:wrap;
-    /* gap: 30px; */
-    /* row-gap: 5px; */
     justify-content:center;
     align-items:center;
     width:80%;
-    /* background-color: #5d5d5d40; */
+    /* row-gap: 5000%; */
     background-image: linear-gradient(to top, rgb(35, 35, 35), rgba(255, 247, 0, 0.132), rgb(35, 35, 35));
-    /* border-radius:100px 100px; */
-    /* border-top-left-radius: 10%; */
 
 }
 
@@ -242,23 +224,31 @@ main{
     padding-left: 50px;
     /* gap: 100px; */
     margin: -150px;
-    margin-bottom: -380px;
+    margin-bottom: -370px;
     width: 480px;
-    height: 420px;
+    height: 400px;
     scale: .45;
     /* background-color: rgba(73, 237, 255, 0.148); */
     background-image: linear-gradient(to bottom right, rgb(35, 35, 35), rgba(38, 38, 92, 0.979));
     border-top-left-radius: 5%;
     border-bottom-right-radius: 5%;
+    text-decoration:none;
+    color:white;
+    transition: all .8s ease;
 }
 
-#pBox a{
+#pBox:hover{
+    height:480px;
+}
+
+/* #pBox a{
     text-decoration:none;
     color: white;
-}
+} */
 
 .pTitle{
     font-size: 40px;
+    color:white;
 }
 
 .pDesc{
@@ -266,6 +256,7 @@ main{
     font-size: 30px;
     text-align: center;
     display: flex; 
+    color:white;
     /* align-items: center;  */
     /* justify-content: center; */
 }
@@ -377,8 +368,8 @@ img.cssShow{
     /* margin-left:20%; */
     /* position: absolute; */
     margin-left: 0%;
-    padding-top:10%;
-    margin-top: 52%;
+    padding-top:0%;
+    margin-top: -35%;
     justify-content:center;
     align-items:center;
     /* background-image: linear-gradient(to top, rgb(35, 35, 35), rgba(0, 185, 252, 0.132), rgb(35, 35, 35)); */
@@ -433,7 +424,7 @@ img.cssShow{
 }
 
 #htmlLogo{
-    width:100%;
+    width:106%;
 }
 
 #exLogo{
