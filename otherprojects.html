@@ -2,154 +2,153 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cinzel&family=Lato:wght@300;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="otherprojectsstyles.css">
     <title>LJ's other Projects</title>
 </head>
 <body>
-
+    
     <header>
-        <h1><a href="index.html">Lawrence John Balanza</a> <br> <span>Computer Science B.S.</span></h1>
+        <h1><a href="index.html" id="ljTop">Lawrence John Balanza</span></a> <br> <span id="degree">Computer Science B.S.</span></h1>
     </header> 
 
     <nav class="main-nav">
-        <ul>
-            <li class="home"><a href="index.html">Home</a></li>
-            <li><a href="/videogameprojects.html">Video Game Projects</a></li>
-            <li class="otherProject"><a href="/otherprojects.html">Other projects</a></li>
-            <li><a href="/downloads.html">Downloads</a></li>
-            <li><a href="/aboutme.html" class="aboutme">About me</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+        <ul class="navContainer">
+            <a href="index.html"><li>Home</li></a>
+            <a href="/videogameprojects.html"><li>Video Game Projects</li></a>
+            <a href="/otherprojects.html"><li class="otherProject">Other projects</li></a>
+            <a href="/downloads.html"><li>Downloads</li></a>
+            <a href="/aboutme.html" class="aboutme"><li>About me</li></a>
+            <a href="/contact.html"><li>Contact</li></a>
         </ul>
     </nav>
 
-    <main>
-        <section class="project" id="project">
+   <!-- PROJECTS -->
+   <main>
+    <h1 id="toplabel">Other Projects</h1>
+    <section class="project">
 
-            <h1 id="toplabel">Other Projects</h1>
+        <a href="projects/Ecommerce.html" class="ecommerce" id="pBox">
+        <div>
+            <h3 id="ecommerce" class="pTitle">E-commerce Website</h3>     
+            <img src="images\ecommerce\1.png" alt="">
+            <span class="pDesc">December 04, 2023 <br><br> NextJS e-commerce application written in Typescript that utilizes Stripe API to process payment.</span>
+        </div>
+        </a>
+
+        <a href="projects/WorkoutBuddy.html"  class="ljBuddy" id="pBox">
+        <div>
+            <h3 id="buddy1" class="pTitle">Workout Buddy</h3>     
+            <img src="images/workoutBuddy/1.png" alt="">
+            <span class="pDesc">November 21, 2023 <br><br> MERN stack application created to keep track of workouts. Uses MongoDB to keep track of workout data, as well as the time when the workout was created. This website utilizes JWT authentication and password encryption for security. The frontend is deployed on Netlify, the backend on Railway.</span> 
+        </div>
+        </a>
+
+        <a href="projects/ConnectSphere.html"  class="connectSphere" id="pBox">
+        <div>
+            <h3 class="pTitle">Connect Sphere</h3>     
+            <br><br>
+            <img src="images\connectSphere\1.png" alt="">
+            <span class="pDesc">October 25, 2023 <br><br> Developed the front end of this mock social media website. Implemented multiple features such as the sign in, sign up page, home page, and message page. </span> 
+        </div>
+        
+
+        <a href="projects/MilitarySim.html" class="OpenWorldMilitarySim" id="pBox">
+        <div>
+            <h3 class="pTitle">Open World Military Simulator Survival Game (In Progress)<br></h3>
+            <br><br>
+            <img src="images/milSim/img1.png" alt="">
+            <span class="pDesc">August 15, 2023 <br><br> Description: Open world survival game, using tactical shooter and survival mechanics. Inspired by some of my favorite games. </span>
+        </div>
+        </a>
+
+        <a href="projects/GuessBoo.html"  class="Guessboo" id="pBox">
+        <div>
+            <h3 class="pTitle">Guess Boo<br><span style="font-size: 25px;">1st place at 2023 CSUSM CSIS Project Showcase</span></h3>
+            <img src="images/guessBoo/boo1.png" alt="">
+            <span class="pDesc">May 17, 2023 <br><br> You are a paranormal journalist attempting to find out who exactly is haunting the house. Use context clues such as sound and search for unique evidence to identify the ghost. Guess correctly and avoid being hunted to safely escape the house. Beware of guessing the wrong ghost! </span>
+        </div>
+        </a>
+
+        <a href="projects/JAWS.html" class="JAWS" id="pBox">
+        <div>
+            <h3 class="pTitle">Joint Action Workout System (JAWS)</h3>
+            <br><br>
+            <img src="images\JAWS\jawsThumb.png" alt="">
+            <br><br>
+            <span class="pDesc">May 10, 2023 <br><br> Take user characteristics, such as weight, height, equipment available, and produce a week of workouts for the user!</span>
+        </div>
+        </a>
+
+        <a href="projects/Turtle.html" class="Turtle" id="pBox">
+        <div>
+            <h3 class="pTitle">Turtle Range</h3>
+            <br><br>
+            <img src="images/TurtleRange/turtle1.png" alt="">
+            <span class="pDesc">March 17, 2023 <br><br> Take out as many turtles as you can with a bow, but don't let them cross the line!</span>
+        </div>
+        </a>
+
+        <a href="projects/Adventure.html" class="Adventure" id="pBox">
+        <div>
+            <h3 class="pTitle">Adventure Realm</h3>
+            <br><br>
+            <img src="images/Adventure/adventure1.png" alt="">
+            <span class="pDesc">December 14, 2022 <br><br> Quest line based RPG. Start off as a peasant working the farms to becoming the hero of the village! </span>
+        </div>
+        </a>
+
+        <a href="projects/Spacebase.html" class="Spacebase" id="pBox">
+        <div>
+            <h3 class="pTitle">Space Base Attack</h3>
+            <br><br>
+            <img src="images/Space base Attack/Space2.png" alt="">
             <br>
+            <span class="pDesc">October 19, 2022 <br><br> The alien army of foxes have stolen your money, get your coins back and eliminate the thieving foxes!</span>
+        </div>
+        </a>
 
-            <div class="ecommerce">
-                <h3 id="ecommerce">E-commerce Website</h3>     
-                <a href="https://github.com/LJcode79/lj-commerce" id="ecCheck">Check out my code</a>
-                <br><br>  
-                <a href="https://lj-commerce.vercel.app/">Link to the site</a>
-                <br><br>
-                <img src="images\ecommerce\1.png" alt="">
-                <h4>Home page</h4><br><br>
-                <img src="images\ecommerce\2.png" alt="">
-                <h4>Sort by category</h4><br><br>
-                <img src="images\ecommerce\3.png" alt="">
-                <h4>Item details and photos</h4><br><br>
-                <img src="images\ecommerce\4.png" alt="">
-                <h4>Dynamic shopping cart</h4><br><br>
-                <img src="images\ecommerce\5.png" alt="">
-                <h4>Stripe checkout and payment</h4><br><br>
-                Title: E-commerce Website <br><br> Date: December 04, 2023 <br><br> Technologies: NextJS, Tailwind CSS, HTML, CSS, Vercel, SanityIO, Stripe, ShadCN, Postman<br><br> IDE: Visual Studio Code <br><br> Description: NextJS e-commerce application that utilizes Stripe to process payment.
-            </div>
+        <a href="projects/DoorAlarm.html" class="IoT Door Alarm" id="pBox">
+        <div>
+            <h3 class="pTitle">IoT Door Alarm</h3>
+            <br><br>
+            <img src="images/iot/iotPic.png" alt="">
+            
+            <span class="pDesc">June 22, 2022 <br><br>An IoT device capable of detecting whether a door is opened or closed. Using a buzzer, the device uses a series of beeps to notify the user when the status of the door changes.></span>
+        </div>
+        </a>
 
-            <br><br><br>
+        <a href="projects/Presidential.html" class="President" id="pBox">
+        <div>
+            <h3 class="pTitle">Presidential Election Simulator</h3>
+            <br><br>
+            <img src="images/president/president8.png" alt="">
+           <span class="pDesc">February 4, 2022 <br><br> Description: Text-based board game, choose your actions wisely in this multiplayer journey to become the next President of the United States!</span>
+        </div>
+        </a>
 
-            <div class="ljBuddy">
-                <h3 id="buddy1">Workout Buddy</h3>     
-                <a href="https://github.com/LJcode79/mernstackV1-client" id="buddy">Check out my code (frontend)</a>
-                <br><br>  
-                <a href="https://github.com/LJcode79/mernstackV1-server" id="buddy">Check out my code (backend)</a>
-                <br><br>   
-                <a href="https://ljbuddy.netlify.app/">Link to the site</a>
-                <br><br>
-                <img src="images/workoutBuddy/1.png" alt="">
-                <h4>Home page with workout examples</h4><br><br>
-                Title: Workout Buddy <br><br> Date: November 21, 2023 <br><br> Technologies: MongoDB, ExpressJS, ReactJS, NodeJS, HTML, CSS, Railway, Netlify, Postman<br><br> IDE: Visual Studio Code <br><br> Description: MERN stack application created to keep track of workouts. Uses MongoDB to keep track of workout data, as well as the time when the workout was created. This website utilizes JWT authentication and password decryption for security. The frontend is deployed on Netlify, the backend on Railway.
+        
+        <a href="projects/Blackjack.html" class="Blackjack" id="pBox">
+        <div>
+            <h3 class="pTitle">Blackjack</h3>
+            <br><br>
+            <img src="images/blackjack/blackjackImage4.png" alt="">
+            <span class="pDesc">December 15, 2020 <br><br> Single player, text-based game of Blackjack. Input the amount of money you want to bet and play against an AI dealer!</span>
+        </div>
+        </a>
 
-            <br><br><br>
-            <div class="connectSphere">
-                <h3>Connect Sphere</h3>     
-                <a href="https://github.com/LJcode79/MockSocialMedia" id="connCheck">Check out my code</a>
-                <br><br>   
-                <a href="https://github.com/LJcode79/MockSocialMedia">Link to the site</a>
-                <br><br>
-                <img src="images\connectSphere\1.png" alt="">
-                <h4>Home page</h4><br><br>
-                <img src="images\connectSphere\2.png" alt="">
-                <h4>Following page</h4><br><br>
-                <img src="images\connectSphere\3.png" alt="">
-                <h4>Message page</h4><br><br>
-                Title: Connect Sphere <br><br> Date: October 25, 2023 <br><br> Language: HTML, CSS <br><br> IDE: Visual Studio Code <br><br> Description: Developed the front end of this mock social media website. Implemented multiple features such as the sign in, sign up page, home page, and message page.
-            </div>
-
-            <!-- located on d drive JAWSproject -->
-            <br><br><br>
-            <div class="JAWS">
-                <h3>Joint Action Workout System (JAWS)</h3>
-                <a href="https://github.com/LJcode79/JAWS">Check out my code</a>
-                <br><br>
-                <video width="580" height="326" controls>
-                    <source src="images/JAWS/JAWSDemo2.mov">
-                </video>
-                <h4>Demonstration of JAWS</h4>
-                <br><br>
-                <img src="images/JAWS/jawsMain.png" alt="">
-                <h4>Demonstration of JAWS backend </h4><br><br>
-                <img src="images/JAWS/jawsArch.png" alt="">
-                <h4>Jaws blackboard architecture design</h4><br><br>
-                Title: Joint Action Workout System (JAWS) <br><br> Date: May 10, 2023 <br><br> Language: JavaScript <br><br> IDE: Visual Studio Code <br><br> Task: I was responsible for programming the backend of this project. I had never used JavaScript before, so completing this project was a learning experience! <br><br> Description: Take user characteristics, such as weight, height, equipment available, and produce a week of workouts for the user!
-            </div>
-
-            <br><br><br>
-            <div class="IoT Door Alarm">
-                <h3>IoT Door Alarm</h3>
-                <a href="https://github.com/LJcode79/IoT-Door-Alarm">Check out my code</a>
-                <br><br>
-                <img src="images/iot/iotPic.png" alt="">
-                <h4>Embedded IoT Door Alarm</h4><br><br>
-                <video width="580" height="326" controls>
-                    <source src="images/iot/vid1.mp4">
-                </video>
-                <h4>Detecting door opening, notice the red dot (closed status) changes </h4>
-                <br><br>
-
-                <video width="580" height="326" controls>
-                    <source src="images/iot/vid2.mp4">
-                </video>
-                <h4>Checking the current state of door. 2 beeps mean door is closed, 3 beeps mean door is open</h4>
-                <br><br>
-              
-                <video width="580" height="326" controls>
-                    <source src="images/iot/vid3.mp4">
-                </video>
-                <h4>Change status of the door from open to closed</h4>
-                <br><br>
-
-                <video width="580" height="326" controls>
-                    <source src="images/iot/vid4.mp4">
-                </video>
-                <h4>Turning the alarm on / off</h4>
-                <br><br>
-
-                <video width="580" height="326" controls>
-                    <source src="images/iot/vid5.mp4">
-                </video>
-                <h4>Testing the buzzer</h4>
-                <br><br>
-
-                Title: IoT Door Alarm <br><br> Date: June 22, 2022 <br><br> Language: C++ <br><br> IDE: Arduino IoT <br><br> Description: An IoT device capable of detecting whether a door is opened or closed. Using a buzzer, the device uses a series of beeps to notify the user when the status of the door changes.
-            </div>
-
-            <br><br><br>
-            <div class="Blender">
-                <!-- x-->
-            </div>
-
-            <!-- Py project located bigstorage(D) -->
-            <br><br><br>
-            <div class="Blender2">
-                <!-- x -->
-            </div>
-
-            <br><br><br>
-            <div class="Parser">
-                <!-- x -->
-            </div>
-    </main>
+        <a href="projects/Cubetube.html" class="cubetube" id="pBox">
+        <div>
+            <h3 class="pTitle">Cubetube</h3>
+            <img src="images/CubeTubeScreenshot.png" alt="">
+            <span class="pDesc">July 25, 2020 <br><br> Cube runner game, avoid blocks to get a higher score! My first game using the Unity Game Engine </span>
+        </div>
+        </a>
+    </section>
+</main>
 </body>
 </html>

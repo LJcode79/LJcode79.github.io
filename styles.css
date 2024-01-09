@@ -35,12 +35,16 @@ header h1{
     left: 0;
     width: 100%;
     position: static;
-    background-color:rgb(41, 41, 41);
+    /* background-color:rgb(41, 41, 41); */
+    /* background-image: radial-gradient( rgba(0, 0, 0, 0.411), rgba(138, 136, 0, 0.342)); */
+    /* background-repeat: no-repeat; */
     text-align: center;
     /* font-family: 'Bebas Neue', sans-serif; */
     /* font-family: 'Cinzel', serif; */
     font-family: 'Cinzel', serif;
     font-size: 30px;
+    padding-bottom:.5%;
+    padding-top: .5%;
 }
 
 header h1 a{
@@ -56,11 +60,13 @@ header h1 span{
 
 .oceanBack{
     position: absolute;
+    /* position:relative; */
     z-index: -1;
+    /* margin-top:20%; */
     width: 100%;
     height: 100%;
     opacity: .95;
-    background-image: linear-gradient(to bottom, rgba(176, 250, 255, 0), rgb(35, 35, 35) ), url('images/ocean.gif');
+    background-image: linear-gradient(to bottom, rgba(176, 250, 255, 0), rgb(35, 35, 35)), url('images/ocean.gif');
     background-size: cover;
     background-position: center;
 
@@ -115,6 +121,7 @@ header h1 span{
     flex-wrap:wrap;
     justify-content:center;
     align-items:center;
+    /* height:2%; */
     margin-top:26.8%;
     margin-left: 30%;
     gap: 40px;
@@ -128,6 +135,8 @@ header h1 span{
     /* flex-direction:column; */
     margin-bottom:3%;
     width:40px;
+    /* height: 40px; */
+    padding-top:1.2%;
     transition: transform .3s ease;
     transform-origin: center center;
     /* justify-content:center; */
@@ -149,9 +158,27 @@ header h1 span{
 
 /* nav links */
 
+.main-nav{
+    padding: 0;
+    overflow: hidden;
+}
+
+.navContainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    padding: 0;
+    width:100%;
+    list-style-type: none;
+    /* gap:0px; */
+    /* gap: 5%; */
+}
+
+
 nav{
     background-color: #5d5d5d;
-    padding-left: 55px;
+    /* padding-left: 55px; */
     padding-bottom: 10px;
     padding-top: 10px;
     margin-top:0px;
@@ -165,16 +192,32 @@ nav ul{
     margin: 0 auto;
 }
 
-nav li{
+nav a{
     display: inline-block;
     font-size: 20px;
-    padding-right: 80px;
+    padding: 10px 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+
+    background-image: linear-gradient(to bottom, #5d5d5d 10%, #001b8898);
+    background-size:300% 500%;
+    /* background-repeat:no-repeat; */
+    /* background-color:#5d5d5d; */
+    border-radius: 0%;
+    background-position-y: top;
+    transition: background-position .8s;
 }
 
 
-nav li a{
-    text-decoration: none;
-    color: white;
+nav a:hover {
+    background-position-y: bottom;
+    /* background-color: rgba(38, 38, 92, 0.979); */
 }
 
 main{
@@ -234,7 +277,7 @@ main{
     border-bottom-right-radius: 5%;
     text-decoration:none;
     color:white;
-    transition: all .8s ease;
+    transition: all .9s ease;
 }
 
 #pBox:hover{
