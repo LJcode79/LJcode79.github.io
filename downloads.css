@@ -5,28 +5,50 @@ html{
 body{
     background-color: rgb(35, 35, 35);
     font-family: 'Georgia';
-    color: rgb(228, 228, 228);
+    color: white;
     margin: 0;
     padding: 0;
 }
 
+#ljTop{
+    /* font-family: 'DotGothic16', sans-serif; */
+    /* font-family: 'Shantell Sans', cursive; */
+    /* font-family: 'Cinzel', serif; */
+    /* font-family: 'Bebas Neue', sans-serif; */
+    /* font-family: 'Genos', sans-serif; */
+    /* font-family: 'Cinzel', serif; */
+    font-size: 40px;
+    /* letter-spacing: 4px; */
+}
+
+#degree{
+    font-size:20px;
+}
+
 /* Lawrence John Balanza br computer science bs */
 header h1{
-    margin: 0;
-    padding: 20px;
-    top: 20px;
+    /* font-family: 'Lobster', sans-serif; */
+    /* padding: 15px; */
+    margin:0px;
+    top: -35px;
     left: 0;
     width: 100%;
-    /* position: absolute; */
-    background-color:rgb(41, 41, 41);
+    position: static;
+    /* background-color:rgb(41, 41, 41); */
+    /* background-image: radial-gradient( rgba(0, 0, 0, 0.411), rgba(138, 136, 0, 0.342)); */
+    /* background-repeat: no-repeat; */
     text-align: center;
-    /* font-family: 'Brush Script MT'; */
-    font-size: 35px;
+    /* font-family: 'Bebas Neue', sans-serif; */
+    /* font-family: 'Cinzel', serif; */
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    padding-bottom:.5%;
+    padding-top: .5%;
 }
 
 header h1 a{
     text-decoration: none;
-    color: rgb(228, 228, 228);
+    color: white;
 }
 
 /* Computer science bs */
@@ -48,15 +70,35 @@ header h1 span{
 
 /* nav links */
 
+.main-nav{
+    padding: 0;
+    overflow: hidden;
+}
+
+.navContainer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    padding: 0;
+    width:100%;
+    list-style-type: none;
+    /* gap:0px; */
+    /* gap: 5%; */
+    /* font-family: 'Amatic SC', sans-serif; */
+    font-family: 'Permanent Marker', cursive;
+    /* font-size:500px; */
+}
+
+
 nav{
     background-color: #5d5d5d;
-    /* padding: 100px auto; */
-    padding-left: 55px;
+    /* padding-left: 55px; */
     padding-bottom: 10px;
     padding-top: 10px;
+    margin-top:0px;
     position: sticky;
     top: -6px;
-    /* font-family: arial; */
     z-index: 1;
 }
 
@@ -65,25 +107,33 @@ nav ul{
     margin: 0 auto;
 }
 
-nav li{
-    /* width: 150px; */
+nav a{
     display: inline-block;
     font-size: 20px;
-    padding-right: 80px;
-}
-
-
-nav li a{
+    padding: 10px 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
-    color: rgb(228, 228, 228);
+    color: white;
+
+    background-image: linear-gradient(to bottom, #5d5d5d 10%, #001b8898);
+    background-size:300% 500%;
+    /* background-repeat:no-repeat; */
+    /* background-color:#5d5d5d; */
+    border-radius: 0%;
+    background-position-y: top;
+    transition: background-position .8s;
 }
 
-/* .home{
-}
 
-.otherProject{
-    padding-left: 40px;
-} */
+nav a:hover {
+    background-position-y: bottom;
+    /* background-color: rgba(38, 38, 92, 0.979); */
+}
 
 main{
     position: relative;
@@ -92,7 +142,7 @@ main{
     padding: 0 10px;
     box-sizing: border-box;
     top: -600px;
-    color: rgb(228, 228, 228);
+    color: white;
 }
 
 #toplabel{
@@ -101,7 +151,7 @@ main{
 
 
 a{
-    color: rgb(152, 152, 152);
+    color: rgb(202, 202, 202);
 }
 
 .downloads{

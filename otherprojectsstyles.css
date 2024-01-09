@@ -5,9 +5,24 @@ html{
 body{
     background-color: rgb(35, 35, 35);
     font-family: 'Georgia';
-    color: rgb(228, 228, 228);
+    color: white;
     margin: 0;
     padding: 0;
+}
+
+#ljTop{
+    /* font-family: 'DotGothic16', sans-serif; */
+    /* font-family: 'Shantell Sans', cursive; */
+    /* font-family: 'Cinzel', serif; */
+    /* font-family: 'Bebas Neue', sans-serif; */
+    /* font-family: 'Genos', sans-serif; */
+    /* font-family: 'Cinzel', serif; */
+    font-size: 40px;
+    /* letter-spacing: 4px; */
+}
+
+#degree{
+    font-size:20px;
 }
 
 /* Lawrence John Balanza br computer science bs */
@@ -26,14 +41,14 @@ header h1{
     /* font-family: 'Bebas Neue', sans-serif; */
     /* font-family: 'Cinzel', serif; */
     font-family: 'Cinzel', serif;
-    font-size: 35px;
+    font-size: 30px;
     padding-bottom:.5%;
     padding-top: .5%;
 }
 
 header h1 a{
     text-decoration: none;
-    color: rgb(228, 228, 228);
+    color: white;
 }
 
 /* Computer science bs */
@@ -45,7 +60,7 @@ header h1 span{
 
 /* welcome to my website! */
 .welcome{
-    position: relative;
+    position: absolute;
     left: -30%;
     top: 300px;
     line-height: 3em;
@@ -68,6 +83,7 @@ header h1 span{
     padding: 0;
     width:100%;
     list-style-type: none;
+    font-family: 'Permanent Marker', cursive;
     /* gap:0px; */
     /* gap: 5%; */
 }
@@ -132,7 +148,7 @@ nav li a{
 
 main{
     position: relative;
-    margin-top: 170px;
+    margin-top: 9%;
     /* margin-bottom: 0px; */
     width:100%;
     top: 10px;
@@ -146,14 +162,15 @@ main{
     font-size:40px;
     left:37%;
     background-image: linear-gradient(to top, rgb(35, 35, 35), rgba(38, 38, 92, 0.979));
-    box-shadow: 0 0 50px 5px rgba(255, 247, 0, 0.322);
+    box-shadow: 0 0 50px 5px rgb(63, 0, 58);
     color: white;
     border-top-left-radius: 30%;
     border-bottom-right-radius: 30%;
+    text-align: center;
 }
 
 .project{
-    margin-top: -160%;
+    margin-top: -0%;
     margin-bottom: 60px;
     margin: auto;
     /* padding:auto; */
@@ -165,7 +182,7 @@ main{
     align-items:center;
     width:80%;
     /* row-gap: 5000%; */
-    background-image: linear-gradient(to top, rgb(35, 35, 35), rgba(255, 247, 0, 0.132), rgb(35, 35, 35));
+    background-image: linear-gradient(to top, rgb(35, 35, 35), rgba(63, 0, 58, 0.694), rgb(35, 35, 35));
 
 }
 
@@ -190,18 +207,27 @@ main{
     transition: all .8s ease;
 }
 
+#pBox:hover{
+    height:480px;
+}
+
 .project a{
-    padding-left: 39%;
+    padding-left: 45%;
     text-align: center;
     color: white;
 }
 
 .project h1{
     text-align: center;
+    font-size:40px;
 }
 
 .project h3{
     text-align: center;
+}
+
+.project h4{
+    padding-left: 45%;
 }
 
 /* .cubetube img, .Blackjack img, .President img, .Spacebase img, .Adventure img, .Turtle img{
@@ -220,6 +246,8 @@ main{
 
 .project img{
     width: 100%;
+    /* padding-left:10%; */
+    /* padding-right:5%; */
 }
 
 .project h3{
