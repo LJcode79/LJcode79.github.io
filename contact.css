@@ -82,10 +82,11 @@ header h1 span{
 /* welcome to my website! */
 .contact{
     position: relative;
-    left: 20%;
+    padding-left: 20%;
     top: 50px;
     line-height: 3em;
     font-size:12px;
+    /* width: 100%; */
     /* text-align: center; */
 }
 
